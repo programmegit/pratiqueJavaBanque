@@ -1,4 +1,4 @@
-package gestion.banque;
+package packageBanque;
 
 public class CompteEpargne extends Compte {
 

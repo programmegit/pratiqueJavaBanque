@@ -1,18 +1,18 @@
-package gestion.banque;
+package packageBanque;
 
 public class Compte {
 	
-	private String code;
+	private int code;
 	private Double solde;
 	private Agence lAgence;
 	private Client proprietaire;
 	
 	
 	
-	public String getCode() {
+	public int getCode() {
 		return code;
 	}
-	public void setCode(String code) {
+	public void setCode(int code) {
 		this.code = code;
 	}
 	
